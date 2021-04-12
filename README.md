@@ -16,4 +16,11 @@ and run it using
 
 aand it's done
 
+## how to change word list and number of words?
+to change the word list, edit ```string slowo[ILOSCSLOW] {};```
+
+and you can change the number of word editing the ```const int ILOSCSLOW```
+
+and compile it again
+
 yeah, it also works on windows
