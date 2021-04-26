@@ -4,10 +4,10 @@ hi this is my hangman project, it is easily changeable. You can change a number 
 It's described in the source code.
 
 # how do i use it?
-just compile it e.g. using g++
+just compile it
 
 ```
-g++ hangman.cpp -o hangman
+make
 ```
 and run it using
 ```
@@ -17,10 +17,7 @@ and run it using
 aand it's done
 
 ## how to change word list and number of words?
-to change the word list, edit ```string slowo[ILOSCSLOW] {};```
+edit ```hangman.h``` and compile it again. it's the configuration file.
 
-and you can change the number of word editing the ```const int ILOSCSLOW```
 
-and compile it again
-
-yeah, it also works on windows
+##### and yeah, it also works on windows
